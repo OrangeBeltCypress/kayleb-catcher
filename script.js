@@ -65,6 +65,6 @@ function checkCollision(coin, bucket) {
         coinRect.bottom > bucketRect.top
     ) {
        coin.remove()
-       text.innerHTML = "Coins: " + ++amt
+       text.innerHTML = "MLG WATER BUCKET SAVES: " + ++amt
     }
 }
